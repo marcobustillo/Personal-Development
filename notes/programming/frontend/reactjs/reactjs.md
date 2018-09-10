@@ -249,5 +249,5 @@ class ExternalCSS extends Component{
 ```
 
 ## Project Structure
-The attached image is the project structure I follow. For me its easier to know where I store my components
-![alt text](~/pictures/frontend/reactjstreenode.png)
+The attached image is the project structure I follow. For me its easier to know where I store my components<br/>
+![alt text](../../../../frontend/reactjstreenode.png)
