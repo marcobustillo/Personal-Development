@@ -35,7 +35,7 @@ git commit -m "Commit message"
 git remote add origin HTTPS URL/LINK you have copied
 git push -u origin master
 ```
--Once finished you now have created a new repository
+- Once finished you now have created a new repository
 
 Check repository status
 ```git
@@ -53,7 +53,7 @@ git config user.name "Name"
 git config user.email "Email"
 ```
 
-A previously cloned repository on a server can now pull changes(**Note:**clone is only used for the first time you want a repository)
+A previously cloned repository on a server can now pull changes(**Note:** clone is only used for the first time you want a repository)
 
 ```git
 git pull REPO_NAME BRANCH_NAME
@@ -89,6 +89,6 @@ Explain help command
 ```git
 git help COMMAND
 ```
-**Note:**Once you selected any command in the help list it will open a new browser tab
+**Note:** Once you selected any command in the help list it will open a new browser tab
 
 ## Common Errors

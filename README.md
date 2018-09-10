@@ -22,7 +22,7 @@
     - [Express](./notes/programming/backend/express.md)
 
 ### Frontend
-- [ReactJS](./notes/programming/frontend/reactjs.md)
+- [ReactJS](./notes/programming/frontend/reactjs/reactjs.md)
 - [ReactNative](./notes/programming/frontend/reactnative.md)
 
 ### Version Control
