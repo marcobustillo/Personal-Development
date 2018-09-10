@@ -9,11 +9,11 @@
 
 
 ## Dictionary
-Master branch : default branch name
-HEAD : Last commit in the repository
-REPO_NAME : Repository name(Changeable)
-BRANCH_NAME : Branch name(Changeable)
-COMMAND : Chosen command in help list
+- Master branch : default branch name
+- HEAD : Last commit in the repository
+- REPO_NAME : Repository name(Changeable)
+- BRANCH_NAME : Branch name(Changeable)
+- COMMAND : Chosen command in help list
 
 ## Common Used commands
 
