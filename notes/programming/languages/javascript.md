@@ -1,6 +1,14 @@
 # Javascript
 Javascript is the language of the web.
 
+## Table of Contents
+- [Hoisting](#hoisting)
+- [Variables](#variables)
+- [Functions](#functions)
+- [Useful](#useful)
+- [Conditions](#conditions)
+- [Loops](#loops)
+
 ## Hoisting
 
 Both variable and function declarations are hoisted to the top on code execution, meaning that their order is irrelevant i.e functions can be called before they are declared.
@@ -11,6 +19,14 @@ Both variable and function declarations are hoisted to the top on code execution
 var a; //Regular
 let b; //Block Scoped
 const c; //immutable
+```
+
+### Data types
+```javascript
+let a = 12; //Integer
+let b = "Test"; //String
+let c = [1,2,3,4]; //Array
+let d = {"hi":"Hello"} //Object
 ```
 
 ## Functions
@@ -92,4 +108,67 @@ Strings with at least one letter and numbers larger than zero are truthy.
 ```javascript
 console.log(true && "foo"); // foo
 console.log(true && "foo" && 1); // 1
+```
+
+## Conditions
+
+### If/Else
+```javascript
+const age = (age) => {
+  if (age < 10) {
+    return "Kid";
+  }if else(age > 10 || age < 20){
+      return "Teen";
+  }if else(age > 20 || age < 50){
+    return "Adult";
+  }else {
+    return "Old";
+  }
+}
+age(10);
+```
+
+### Do/While
+```javascript
+let text = "";
+let i = 0;
+do{
+  text += "The number is "+i;
+}while(i<5);
+```
+
+### Try/Catch
+```javascript
+let x = "";
+
+try{
+  if(x == "") throw "Empty";
+}catch(error){
+  console.log(error);
+}
+```
+
+## Loops
+### For
+```javascript
+let plus = 0;
+for(let i = 0 ; i < 5; i++){
+ plus = plus +i;
+}
+```
+
+### For Each
+```javascript
+let array = [1,2,3,4,5];
+array.forEach((value,index,array)=>{
+  console.log(value,index,array)
+});
+```
+
+### Map
+```javascript
+let array = [1,2,3,4,5];
+let doubled = array.map((num) => {
+    return num * 2;
+});
 ```
