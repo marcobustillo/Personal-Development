@@ -25,6 +25,9 @@
 - [ReactJS](./notes/programming/frontend/reactjs.md)
 - [ReactNative](./notes/programming/frontend/reactnative.md)
 
+### Version Control
+- [Git](./notes/programming/versioning/git/git.md)
+
 ### Cloud platform
 - [AWS](./notes/programming/cloudplatform/aws/aws.md)
 - [Heroku](./notes/programming/cloudplatform/heroku/heroku.md)
