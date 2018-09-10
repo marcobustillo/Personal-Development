@@ -1,5 +1,5 @@
 # Javascript
-Javascript is the language of the web.
+**Javascript** is the language of the web.
 
 ## Table of Contents
 - [Hoisting](#hoisting)
@@ -8,6 +8,7 @@ Javascript is the language of the web.
 - [Useful](#useful)
 - [Conditions](#conditions)
 - [Loops](#loops)
+- [JSON](#json)
 
 ## Hoisting
 
@@ -172,3 +173,49 @@ let doubled = array.map((num) => {
     return num * 2;
 });
 ```
+
+## JSON
+**Javascript Object Notation** is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999.
+
+### Examples
+```javascript
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+```
+
+```javascript
+{
+  "users":{
+    "1":{
+      "name":"john",
+      "lastname":"doe"
+    },
+    "2":{
+      "name":"jane",
+      "lastname":"doe"
+    }
+  }
+}
+```
+
+### JSON Validator
