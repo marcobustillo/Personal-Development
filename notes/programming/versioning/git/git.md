@@ -1,5 +1,6 @@
-#Git
+# Git
 
+## Table of Contents
 - [Dictionary](#dictionary)
 - [Common Used Commands](#common-used-commands)
 - [Git Ignore](#git-ignore)
@@ -15,6 +16,26 @@ BRANCH_NAME : Branch name(Changeable)
 COMMAND : Chosen command in help list
 
 ## Common Used commands
+
+Creating a new Repository
+- Go to www.github.com and enter your credentials
+- Create a new repository
+- Choose a repository name
+- Copy the HTTPS link/url provided to you by github
+- Open terminal or command line
+- Go to desktop or any directory you want to create a folder for your repository
+- Since you are already in command line/terminal use mkdir FOLDER_NAME
+- Change directory to the FOLDER_NAME you created
+- Create a readme.md file using the command echo "# SAMPLE REPO_NAME" >> README.md
+- Use the following Commands
+```git
+git init
+git add README.md
+git commit -m "Commit message"
+git remote add origin HTTPS URL/LINK you have copied
+git push -u origin master
+```
+-Once finished you now have created a new repository
 
 Check repository status
 ```git
