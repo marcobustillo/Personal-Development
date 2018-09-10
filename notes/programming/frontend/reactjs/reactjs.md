@@ -12,6 +12,7 @@ React JS is an open source Javascript library which is used for building interfa
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
 - [Redux](#redux)
+- [Best Practices](#bestpractices)
 
 ## Create React App
 There are couple things you need to install before you can create your first react app
@@ -312,3 +313,5 @@ export default function (state=initialStateValue,action){
 }
 
 ```
+
+## Best Practices

@@ -18,12 +18,16 @@
 - [Typescript](./notes/programming/tools/typescript.md)
 
 ### Backend
-- [Node](./notes/programming/backend/node.md)
-    - [Express](./notes/programming/backend/express.md)
+- [Node](./notes/programming/backend/nodejs/node.md)
+    - [Express](./notes/programming/backend/nodejs/express.md)
+- [Python](./notes/programming/backend/python/python.md)
 
 ### Frontend
 - [ReactJS](./notes/programming/frontend/reactjs/reactjs.md)
 - [ReactNative](./notes/programming/frontend/reactnative.md)
+
+### Unity
+- [Unity](./notes/programming/unity/unity.md)
 
 ### Version Control
 - [Git](./notes/programming/versioning/git/git.md)
@@ -43,6 +47,9 @@
 - [Authentication](./notes/programming/concepts/authentication/authentication.md)
 - [FileOrganizations](./notes/programming/concepts/fileorg/fileorg.md)
 - [Regexp](./notes/programming/concepts/regexp/regex.md)
+
+### Bots
+- [Discord Bot](,/notes/programming/bots/discordbot.md)
 
 ### IDE
 - [Atom](./notes/programming/ide/atom/atom.md)
@@ -77,6 +84,7 @@
 - [Trim](./notes/office/excel/trim.md)
 - [Length](./notes/office/excel/length.md)
 - [Math](./notes/office/excel/math.md)
+- [Pivot Table](./notes/office/excel/pivot.md)
 
 ### Word
 - [Shortcuts](./notes/office/word/shortcuts.md)
