@@ -10,6 +10,8 @@ React JS is an open source Javascript library which is used for building interfa
 - [Events](#events)
 - [CSS](#css)
 - [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Redux](#redux)
 
 ## Create React App
 There are couple things you need to install before you can create your first react app
@@ -250,4 +252,63 @@ class ExternalCSS extends Component{
 
 ## Project Structure
 The attached image is the project structure I follow. For me its easier to know where I store my components<br/>
-![alt text](../../../../pictures/frontend/reactjstreenode.png)
+![reactjsprojectstructure](../../../../pictures/frontend/reactjstreenode.png)
+
+## Dependencies
+Here is a list of packages and dependencies I use for my reactjs boilerplate.
+-	Redux : a predictable state container
+-	React-redux : integration of redux to react
+-	Jwt-decode : JWT token decoder
+-	Axios : Javascript library used to make HTTP requests to nodejs
+-	Redux-thunk : For async actions in redux
+-	React-router-dom : Client side navigation
+-	Semantic-ui-css : CSS of react semantic
+-	Semantic-ui-react : CSS framework
+
+
+## Redux
+What is redux? Redux is a predictable state container for javascript libraries
+What is redux in react? With redux you can create and manage a global state. It is easier to test, behaves consistently, and easily debugged
+Why do we need redux? why can't we just used built in states in react? Because using built in states you will always need to pass props to your child components. It is possible to use that approach but it is not easily manageable, readable and testable.
+
+### Actions
+Where to dispatch "Actions" for your application
+```javascript
+export const sampleAction = (values) => dispatch => {
+  //logs the values passed to the action
+  console.log(values);
+}
+```
+
+### Reducer
+Takes the previous state and an action and return its next state
+
+```javascript
+
+const CHANGE_VALUE = 'change_value',
+
+//actions
+export const changeValue = (values) => dispatch => {
+  dispatch({
+    type: CHANGE_VALUE,
+    payload: values
+  })
+}
+
+//reducers
+const initialStateValue = {
+  TODO:"Test",
+}
+
+export default function (state=initialStateValue,action){
+  switch (action.type) {
+    //when type change_value has been dispatched
+    case CHANGE_VALUE:
+    //will take the values passed from action to reducer using action.payload
+      return { TODO:action.payload }
+    default:
+      return state;
+  }
+}
+
+```
