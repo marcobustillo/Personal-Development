@@ -1,6 +1,6 @@
 # Word Shortcuts
 
-#### Common Shortcuts
+## Common Shortcuts
 - **Ctrl+X**: Cut
 - **Ctrl+C**: Copy
 - **Ctrl+V**: Paste
@@ -10,7 +10,7 @@
 - **Ctrl+P**: Print
 - **Ctrl+N**: New word document
 
-#### Navigation Shortcuts
+## Navigation Shortcuts
 - **Home**: Beginning of line
 - **End**: End of line
 - **Ctrl+Home**: Go to start of document
@@ -19,7 +19,7 @@
 - **Ctrl+Up**: Up one paragraph
 - **Ctrl+Down**: Down one paragraph
 
-#### Text Formatting
+## Text Formatting
 - **Ctrl+B**: Apply bold formatting
 - **Ctrl+I**: Apply italic formatting
 - **Ctrl+U**: Apply underline formatting
