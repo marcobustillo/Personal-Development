@@ -49,7 +49,7 @@
 - [Regexp](./notes/programming/concepts/regexp/regex.md)
 
 ### Bots
-- [Discord Bot](,/notes/programming/bots/discordbot.md)
+- [Discord Bot](./notes/programming/bots/discordbot.md)
 
 ### IDE
 - [Atom](./notes/programming/ide/atom/atom.md)
