@@ -53,6 +53,16 @@ git config user.name "Name"
 git config user.email "Email"
 ```
 
+Clone a branch inside a repository
+```git
+git clone -b BRANCH_NAME REPO_NAME
+```
+
+Push commit from branch1 to branch2
+```git
+git push REPO_NAME BRANCH_NAME1:BRANCH_NAME2
+```
+
 A previously cloned repository on a server can now pull changes(**Note:** clone is only used for the first time you want a repository)
 
 ```git
