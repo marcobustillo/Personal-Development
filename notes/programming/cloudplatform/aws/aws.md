@@ -2,9 +2,8 @@
 
 ### Installing Node and NPM
 ```bash
-sudo apt-get update
-sudo apt-get nodejs
-sudo apt-get npm
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
 then install pm2 for production deployment
