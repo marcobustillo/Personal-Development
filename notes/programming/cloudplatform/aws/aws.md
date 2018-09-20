@@ -14,3 +14,8 @@ try pm2. If you encountered this error `/usr/bin/env: ‘node’: No such file o
 ```bash
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
+
+Re-route 80 to 8080
+```bash
+sudo iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+```
