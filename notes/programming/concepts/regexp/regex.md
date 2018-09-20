@@ -26,3 +26,12 @@ Lesson Notes
 - (a(bc))	Capture Sub-group
 - (.*)	Capture all
 - (abc|def)	Matches abc or def
+
+
+### Using Regex in Javascript
+
+```javascript
+let re = /\w+\d+/;
+let teststring = 'Word123';
+res.test(teststring); // will return true and false
+```
