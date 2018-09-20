@@ -76,6 +76,12 @@ git commit -m "Commit message"
 git push REPO_NAME BRANCH_NAME
 ```
 
+Prompt username and passwoord
+```git
+git config --local credential.helper ""
+git push origin master
+```
+
 ## Git Ignore
 
 This is a list of files/folders to be ignored in commits. To use it, create a `.gitignore` file in the working directory, **NOT** inside `.git`.  
