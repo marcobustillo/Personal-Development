@@ -6,6 +6,7 @@
 - [Git Ignore](#git-ignore)
 - [Help](#help)
 - [Common Errors](#common-errors)
+- [Deploying to GH pages](#deploy)
 
 
 ## Dictionary
@@ -108,3 +109,21 @@ git help COMMAND
 **Note:** Once you selected any command in the help list it will open a new browser tab
 
 ## Common Errors
+
+## Deploying to Github Pages
+
+- First create desired Repository
+- Create react application
+- Install gh-pages as dev dependency using `npm install --save-dev gh-pages`
+- Add these things to the package.json
+```javascript
+"homepage":"http://username.github.io/<REPO_NAME>"
+"scripts":{
+  "deploy":"gh-pages -d build"
+}
+```
+- Initialize git repository on the root react application
+- Add the created repository as origin
+- Run `npm run build` to build your application
+- Run `npm run deploy` to deploy your build application to gh-pages
+- [Optional] Commit your source code to the master branch of your git repository
