@@ -36,7 +36,7 @@
 - [AWS](./notes/programming/cloudplatform/aws/aws.md)
 - [Heroku](./notes/programming/cloudplatform/heroku/heroku.md)
 
-### Testing
+### Testing Tools
 - [Jest](./notes/programming/testing/jest/jest.md)
 - [Mocha](./notes/programming/testing/mocha/mocha.md)
 
@@ -47,6 +47,7 @@
 - [Authentication](./notes/programming/concepts/authentication/authentication.md)
 - [FileOrganizations](./notes/programming/concepts/fileorg/fileorg.md)
 - [Regexp](./notes/programming/concepts/regexp/regex.md)
+- [Testing]('./notes/programming/concepts/testing/testing.md')
 
 ### Bots
 - [Discord Bot](./notes/programming/bots/discordbot.md)

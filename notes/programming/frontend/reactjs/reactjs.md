@@ -12,6 +12,7 @@ React JS is an open source Javascript library which is used for building interfa
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
 - [Redux](#redux)
+- [Testing](#testing)
 - [Best Practices](#bestpractices)
 
 ## Create React App
@@ -313,5 +314,13 @@ export default function (state=initialStateValue,action){
 }
 
 ```
+
+## Testing
+Testing ReactJS Using Jest
+- Testing async action creators
+ - Use moxios for mock axios requests for testing install using `npm install --save-dev moxios`
+- Testing reducers
+- Testing components
+
 
 ## Best Practices
