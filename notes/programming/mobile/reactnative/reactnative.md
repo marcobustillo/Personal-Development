@@ -16,3 +16,9 @@ Personally I would choose to start using the `react-native-cli` immediately as i
 Android Studio installs the latest Android SDK by default. Building a React Native app with native code, however, requires the Android 8.0 (Oreo) SDK in particular. Additional Android SDKs can be installed through the SDK Manager in Android Studio.
 
 The SDK Manager can be accessed from the "Welcome to Android Studio" screen. Click on "Configure", then select "SDK Manager".
+
+## Common Issues/Errors
+- [Issue] SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+  - [Solution] Create local.properties file in android/ folder and paste this line `sdk.dir = C:\\Users\\USERNAME\\AppData\\Local\\Android\\sdk` then re-run
+- [Issue] "@babel/runtime/helpers/builtin/interopRequireDefault"
+  - [Solution] npm add @babel/runtime
