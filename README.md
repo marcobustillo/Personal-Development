@@ -24,7 +24,9 @@
 
 ### Frontend
 - [ReactJS](./notes/programming/frontend/reactjs/reactjs.md)
-- [ReactNative](./notes/programming/frontend/reactnative.md)
+
+### Mobile
+- [ReactNative](./notes/programming/mobile/reactnative/reactnative.md)
 
 ### Unity
 - [Unity](./notes/programming/unity/unity.md)
