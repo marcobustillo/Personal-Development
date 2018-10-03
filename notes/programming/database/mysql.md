@@ -82,6 +82,7 @@ A quick reminder of all relevent SQL queries and examples on how to use them.
 ### **HAVING**: this clause was added to SQL because the WHERE keyword could not be used with aggregated functions
 * `SELECT` `COUNT`(column_name1), column_name2 `FROM` table `GROUP BY` column_name2 `HAVING` `COUNT(`column_name1`)` > 5;
 
+<a name="modify"></a>
 ## 2. Data Modification Queries
 
 ### **INSERT INTO**: used to insert new records/rows in a table
@@ -96,6 +97,7 @@ A quick reminder of all relevent SQL queries and examples on how to use them.
 * `DELETE FROM` table_name `WHERE` condition;
 * `DELETE` * `FROM` table_name;
 
+<a name="report"></a>
 ## 3. Reporting Queries
 
 ### **COUNT**: returns the # of occurrences
@@ -111,6 +113,7 @@ A quick reminder of all relevent SQL queries and examples on how to use them.
 ### **SUM()**: returns the total sum of a numeric column
 * `SELECT SUM (`column_name`) FROM` table_name `WHERE` condition;
 
+<a name="joins"></a>
 ## 4. Join Queries
 
 ###  **INNER JOIN**: returns records that have matching value in both tables
