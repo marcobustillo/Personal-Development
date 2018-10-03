@@ -11,6 +11,7 @@ A quick reminder of all relevent SQL queries and examples on how to use them.
 3. [ Reporting Queries. ](#report)
 4. [ Join Queries. ](#joins)
 
+<a name="find"></a>
 ## 1. Finding Data Queries
 
 ### **SELECT**: used to select data from a database
